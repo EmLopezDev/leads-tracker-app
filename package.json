@@ -1,0 +1,16 @@
+{
+    "name": "Lead-Tracker",
+    "version": "1.0.0",
+    "description": "A way to track leads through urls on the web",
+    "main": "index.js",
+    "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "firebase": "^12.4.0",
+        "vite": "latest"
+    }
+}
