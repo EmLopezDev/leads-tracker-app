@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, push, onValue, remove } from "firebase/database";
 
 const firebaseConfig = {
-    databaseURL: import.meta.env.VITE_DATABASE_URL,
+    databaseURL: "https://leads-tracker-app-ef246-default-rtdb.firebaseio.com/",
 };
 
 const app = initializeApp(firebaseConfig);

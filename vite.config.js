@@ -1,11 +1,5 @@
-import { defineConfig, loadEnv } from "vite";
+import { defineConfig } from "vite";
 
-export default defineConfig(({ mode }) => {
-    const env = loadEnv(mode, process.cwd(), "");
-    return {
-        plugins: [],
-        define: {
-            __APP_ENV__: JSON.stringify(env.APP_ENV),
-        },
-    };
+export default defineConfig({
+    plugins: [],
 });
